@@ -1,0 +1,52 @@
+.button {
+  background-color: #A50024; /* Dr Pepper Red */
+  color: #FFFFFF; /* White */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: #C7B299; /* Cream */
+  color: #2D2D2D; /* Black */
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F9F9F9;
+  color: #2D2D2D;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer {
+  background-color: #2D2D2D;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 100%;
+  }
+  .header, .footer {
+    padding: 15px;
+  }
+}
